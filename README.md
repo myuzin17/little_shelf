@@ -13,7 +13,7 @@ little-shelf/
 ├─ supabase_schema.sql     # 테이블·제약조건·보안 설정
 ├─ .streamlit/
 │  ├─ config.toml          # 파스텔 테마
-│  └─ secrets.toml.example # 비밀 키 예시 (실제 값 없음)
+│  └─ secrets.toml         # 비밀 키 
 └─ assets/                 # (선택) containers/, flowers/ PNG — assets/README.md 참고
 ```
 
