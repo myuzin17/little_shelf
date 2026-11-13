@@ -26,9 +26,11 @@ CSS = """
 html, body, [class*="css"], .stApp { font-family: 'Gowun Dodum', sans-serif; }
 h1, h2, h3, .ls-title { font-family: 'Jua', sans-serif !important; color: #57483F; font-weight: 400; }
 [data-testid="stSidebar"], [data-testid="collapsedControl"], [data-testid="stSidebarCollapsedControl"] { display: none; }
-.block-container { padding-top: 2rem; max-wid.block-container { padding-top: 4.5rem; max-width: 640px; }
-header[data-testid="stHeader"] { background: transparent; }th: 640px; }
-
+.block-container, [data-testid="stMainBlockContainer"] {
+    padding-top: 7rem !important;
+    max-width: 640px;
+}
+header[data-testid="stHeader"] { display: none !important; }
 .ls-title { font-size: 2.1rem; text-align: center; margin: 0; line-height: 1.2; }
 .ls-sub { text-align: center; color: #8A7667; margin: 2px 0 18px; }
 .ls-count { text-align: center; font-family: 'Jua', sans-serif; font-size: 1.3rem; color: #57483F; margin: 10px 0 14px; }
